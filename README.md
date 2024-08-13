@@ -61,6 +61,11 @@ A aplicação exibe uma notificação quando um evento específico, como uma nov
 
 As permissões concedidas ou negadas para funcionalidades específicas da página web são armazenadas em um arquivo JSON, permitindo que sejam persistidas entre execuções da aplicação.
 
+## Criar um .exe no Python
+
+```
+pyinstaller --noconfirm --onefile --windowed --icon "C:\Github\WebClient\favicon.ico" "C:/Github/WebClient/WebClient.py"
+```
 
 # Criando um Instalador com Inno Setup
 
